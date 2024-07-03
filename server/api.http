@@ -1,0 +1,29 @@
+### Login
+POST http://localhost:3001/api/sessions HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "mario.rossi@meme.com",
+    "password" : "password"
+}
+
+### Check the session
+GET http://localhost:3001/api/sessions/current
+
+
+### Get Played Games
+GET http://localhost:3001/api/playedGames
+
+### Generate a new meme
+GET http://localhost:3001/api/singleRound
+
+
+### Add a new Game
+POST http://localhost:3001/api/game HTTP/1.1
+content-type: application/json
+
+{
+    "userId" : 1,
+    "memeIds" : [8,8,8],
+    "rounds" : [5,0,0]
+}

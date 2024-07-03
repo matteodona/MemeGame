@@ -1,0 +1,14 @@
+const memes = [
+    { url: 'kid.jpeg', caption: 'When you finally get the pickle jar open on your own.' },
+    { url: 'kid.jpeg', caption: 'Me when I make a meme that gets 2 upvotes' },
+    { url: 'old_man.jpeg', caption: 'When you finally remember your password on the first try.' },
+    { url: 'old_man.jpeg', caption: 'That smile when you see your stocks are up.' },
+    { url: 'old_man.jpeg', caption: "Monday morning emails, but you're already retired!" },
+    { url: 'it.jpeg', caption: "I can make your student loans disappear" },
+    { url: 'it.jpeg', caption: "Hey kid! I have got pokemon down here" },   
+    { url: 'toy_story.jpeg', caption: "Bad drivers, bad drivers everywhere" },   
+    { url: 'toy_story.jpeg', caption: "Boom, proteins everywhere" },   
+    { url: 'rana.jpeg', caption: "When you're a frog but also a gentleman of the 18th century." },   
+    { url: 'rana.jpeg', caption: "Mood: regally amphibious." },   
+      
+];
